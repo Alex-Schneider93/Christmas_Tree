@@ -3,19 +3,17 @@ body {
   color: white;
   font-family: Consolas, 'Courier New', monospace;
   text-align: center;
-  padding: 20px;
+  padding: 5px;
   overflow: hidden;
 }
 
 h1 {
-  color: gold;
-  text-shadow: 0 0 10px gold;
-  font-size: 15px;
+  color: rgb(255, 170, 0);
+  font-size: 12px;
 }
 h2 {
-  color: gold;
-  text-shadow: 0 0 10px rgb(6, 252, 104);
-  font-size: 10px;
+  color: rgb(186, 7, 7);
+  font-size: 7px;
 }
 
 #treeContainer {
@@ -23,6 +21,7 @@ h2 {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+ 
 }
 
 #tree {
@@ -36,9 +35,20 @@ h2 {
 #lyrics {
   margin-top: 20px;
   font-size: 18px;
-  color: #fff;
-  font-size: 8px;
+  color: #0d427d;
+  font-size: 12px;
+  text-shadow: 0 0 10px rgb(37, 5, 5);
 }
+
+#end {
+  margin-top: 30px;
+  font-size: 11px;
+  color: rgb(255, 0, 0);
+  text-shadow: 0 0 10px rgb(65, 28, 7);
+  font-weight: bold;
+}
+
+
 
 @keyframes blink {
   0% { filter: brightness(1) hue-rotate(0deg); }
