@@ -6,15 +6,15 @@ const height = 12;
 const colors = ["#ff0000","#ff6600","#ffff00","#00ff00","#00ffff","#0066ff","#9900ff","#ff00ff","#ffffff","#ff99cc"];
 
 const lyrics = [
-  { text: "A face on a lover,", time: 2 },
-  { text: "With a fire in his heart,", time: 4 },
-  { text: "A man under cover,", time: 6 },
-  { text: "But you tore me apart,", time:7.5 },
-  { text: "Oh oh", time: 10.5 },
-  { text: "Now I've found a real love,", time: 11.5 },
-  { text: "You'll never fool me again.", time: 14 },
-    { text: "Last Christmas, I gave you my heart,", time: 15.5 },
-  { text: "But the very next day you gave it away,", time: 18.5 },
+  { text: "A face on a lover,", time: 0 },
+  { text: "With a fire in his heart,", time: 1.5 },
+  { text: "A man under cover,", time: 3.5 },
+  { text: "But you tore me apart,", time:4.5 },
+  { text: "Oh oh", time: 8 },
+  { text: "Now I've found a real love,", time: 9 },
+  { text: "You'll never fool me again.", time: 11 },
+    { text: "Last Christmas, I gave you my heart,", time: 13 },
+  { text: "But the very next day you gave it away,", time: 15.5 },
 ];
 
 
@@ -78,3 +78,4 @@ document.body.addEventListener("click", () => {
 
 setInterval(drawTree, 400);
 drawTree();
+
