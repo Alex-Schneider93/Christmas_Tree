@@ -9,11 +9,11 @@ body {
 
 h1 {
   color: rgb(255, 170, 0);
-  font-size: 12px;
+  font-size: 20px;
 }
 h2 {
   color: rgb(186, 7, 7);
-  font-size: 7px;
+  font-size: 10px;
 }
 
 #treeContainer {
@@ -33,16 +33,16 @@ h2 {
 }
 
 #lyrics {
-  margin-top: 20px;
+  margin-top: 1px;
   font-size: 18px;
-  color: #0d427d;
+  color: #0467d8;
   font-size: 12px;
-  text-shadow: 0 0 10px rgb(37, 5, 5);
+  text-shadow: 0 0 10px rgb(166, 2, 2);
 }
 
 #end {
-  margin-top: 30px;
-  font-size: 11px;
+  margin-top: 5px;
+  font-size: 14px;
   color: rgb(255, 0, 0);
   text-shadow: 0 0 10px rgb(65, 28, 7);
   font-weight: bold;
@@ -60,3 +60,4 @@ h2 {
   display: inline-block;
   animation: blink 1s infinite;
 }
+
